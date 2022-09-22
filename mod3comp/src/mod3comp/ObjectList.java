@@ -23,9 +23,8 @@ public class ObjectList implements Serializable {
 
     public void display() {
         for (int i = 0; i < objects.size(); i++) {
-            System.out.print(objects.get(i) + " ");
+            System.out.println(objects.get(i) + " ");
         } // end for loop
-        System.out.println();
     } // end display method
 //******************************************************************************
 } // end ObjectList class
